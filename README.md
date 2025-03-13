@@ -44,7 +44,7 @@ Visualizer.py uses `plotly_calplot` to create a heatmap representation of daily 
 ├── Tracker.py
 ├── Visualizer.py
 ├── data/
-│   ├── start_time.json # 
+│   ├── start_time.json
 │   ├── date_time_.json
 │   ├── monthly_weekly_total.json
 ├── README.md
