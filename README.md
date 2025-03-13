@@ -36,7 +36,7 @@ pip install pandas plotly plotly_calplot
 - Otherwise, calculate the time difference and update daily, weekly, and monthly durations. Then delect `start_time.json`.
 
 ## Visualization
-Visualizer.py` uses `plotly_calplot` to create a heatmap representation of daily recorded times.
+Visualizer.py uses `plotly_calplot` to create a heatmap representation of daily recorded times.
 
 ## Project Structure
 ```
