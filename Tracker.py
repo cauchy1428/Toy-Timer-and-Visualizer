@@ -179,7 +179,7 @@ def print_message(hours=None, minutes=None, weekly_hours=None, weekly_minutes=No
     width = max_length + 4
 
     borderchar = "#"
-    border = borderchar * width
+    border = borderchar * (width + 1)
 
     print(border)
 
