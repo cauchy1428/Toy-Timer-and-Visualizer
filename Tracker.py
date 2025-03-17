@@ -167,10 +167,10 @@ def print_message(hours=None, minutes=None, weekly_hours=None, weekly_minutes=No
         message_parts.append("-------------------")
 
     if weekly_hours is not None and weekly_minutes is not None:
-        message_parts.append(f"Weekly Total: {int(weekly_hours)} hours {int(weekly_minutes)} minutes")
+        message_parts.append(f"This Week: {int(weekly_hours)} hours {int(weekly_minutes)} minutes")
 
     if monthly_hours is not None and monthly_minutes is not None:
-        message_parts.append(f"Monthly Total: {int(monthly_hours)} hours {int(monthly_minutes)} minutes")
+        message_parts.append(f"This Month: {int(monthly_hours)} hours {int(monthly_minutes)} minutes")
 
     message = "\n".join(message_parts)
 
